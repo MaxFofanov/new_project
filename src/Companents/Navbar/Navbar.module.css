@@ -1,0 +1,14 @@
+.nav {
+    grid-area: n; /* располоэение в сетке*/
+    padding: 20px; /*упорядочить текст */
+    background: #428017; /*фон навбара*/
+}
+
+.item a {
+    color: #011d35; /*цвет текста*/
+    text-decoration: none; /*подчеркивание текста в навбаре*/
+}
+
+.item.active {
+    color: #2f0d01;
+}
